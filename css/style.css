@@ -1,0 +1,98 @@
+.navbar-nav .nav-item {
+  width: 100%;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .navbar-nav .nav-item {
+    width: 300px;
+  }
+  .mt-lg-5{
+    margin-top: 0rem!important;
+  }
+}
+
+html {
+  height: 100%;
+}
+
+.my-nav { 
+  background-color: #008977 !important;
+  position: static;
+  margin-bottom: 10px;
+}
+
+@media(min-width: 992px) and (max-width: 1296px){
+  #logo img{
+    width: 100px;
+    height: 80px;
+  }
+}
+
+@media(min-width: 1296px){
+  #logo img{
+    width: 50%;
+  }
+}
+
+#navbarSupportedContent {
+  width: 100%;
+}
+
+.vertical-center {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+#content {
+  margin-top: 15%;
+}
+
+footer {
+  position: static;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 1.5em;
+  height: auto;
+}
+img.social {
+  width: 10%;
+}
+
+.container-fluid {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+#timkiem{
+  width: 150px;
+  height: 40px;
+  margin-left: 38%;
+  margin-right: 38%;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+select{
+  margin-left: 10%;
+  height: 50px;
+  width: 300px;
+  margin-bottom: 2rem;
+}
+
+#sandbox-container{
+  width: 300px;
+  margin-left: 10%;
+  margin-bottom: 28px;
+}
+
+div > h3 {
+  color: white;
+}
+
+.view {
+  background: url("../img/bg-book.png")no-repeat center center;
+  background-size: cover;
+}
